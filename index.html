@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>My Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <br><br>
+    <label>
+        <input type="checkbox" id="tempToggle" onchange="getWeather()" />
+        Fahrenheit
+    </label><br><br>
+    <button onclick="getWeather()">Show Weather</button>
+    <div id="weatherOutput" style="margin-top: 20px;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
